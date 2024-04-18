@@ -1,0 +1,15 @@
+#landing-page {
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+#photography {
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    overflow: scroll;
+}
