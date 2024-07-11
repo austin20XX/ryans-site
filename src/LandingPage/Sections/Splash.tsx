@@ -7,7 +7,7 @@ export const SplashSection = () => {
     return (
         <Box className='section'
             maxWidth='xl'
-            sx={{display: 'flex', justifyContent: 'space-evenly', alignItems: 'center'}}
+            sx={{display: 'flex', justifyContent: 'space-evenly', alignItems: 'center', height: '100vh'}}
         >
             <Box id='left-split'><img src={RyanFullBody} alt='Ryan Watts Full Body Shot>' /> </Box>
             <Box id='right-split'>
