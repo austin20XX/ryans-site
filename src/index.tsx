@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Helmet>
-      <title> (NEW TITLE HERE) </title>
+      <title> 2:03 AM </title>
     </Helmet>
     <App />
   </React.StrictMode>
