@@ -1,13 +1,14 @@
 import './App.css';
 import { RouterProvider } from 'react-router-dom';
 import router from './Routing/Router'
+import { Container } from '@mui/material';
 
 
 function App() {
   return (
-    <div className="App">
+    <Container id="App" className="App" disableGutters maxWidth='xl'>
       <RouterProvider router={router} />
-    </div>
+    </Container>
   );
 }
 
